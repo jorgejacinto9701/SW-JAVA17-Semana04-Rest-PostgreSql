@@ -16,7 +16,7 @@ public class CategoriaServiceImpl implements CategoriaService{
 	
 	@Override
 	public List<Categoria> listaCategoriaOrdenada() {
-		return repository.findAll();
+		return repository.listaCategoriaOrdenada();
 	}
 
 }
